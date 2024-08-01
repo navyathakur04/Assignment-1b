@@ -1,0 +1,27 @@
+PROJECT NAME : Campus Navigation Using Shortest Path Algorithm Between Two Points
+ABSTRACT 
+This project utilizes Dijkstra's Algorithm, a renowned algorithm in computer science, to determine the shortest and most efficient route between two points within a campus. By identifying key nodes and calculating distances between them, the algorithm can provide the optimal path, saving time and energy for campus travelers.
+CODE STRUCTURE 
+1. Graph Representation
+Graph Class/Structure: Manages nodes and edges.
+Nodes: Represent key locations on campus.
+Edges: Represent paths between locations with associated weights (distances).
+Functions for Graph Operations:
+addNode(): Adds a node to the graph.
+addEdge(): Adds an edge between two nodes with a specified weight.
+initializeGraph(): Sets up the initial graph structure.
+2. Dijkstra’s Algorithm Implementation
+Dijkstra Function: Computes the shortest path from a source node to a destination node.
+Distance Array: Tracks the shortest distance from the source to each node.
+Visited Array: Tracks nodes that have been processed.
+Parent Array: Stores the shortest path tree for path reconstruction.
+minDistance(): Finds the unvisited node with the smallest distance.
+printPath(): Recursively prints the shortest path from the source to the destination.
+3. User Interface
+Input Functions: Collects user input for source and destination points.
+Output Functions: Displays the computed shortest path and distance to the user.
+4. Data Management
+Graph Data Storage: Maintains the graph’s adjacency matrix or list to represent connections and weights.
+Node and Edge Management: Functions to manage and update the graph data efficiently.
+CONCLUSION 
+ The project aims to create a reliable and efficient navigation system for campus environments, ensuring users can quickly and easily find the best path to their destinations.
